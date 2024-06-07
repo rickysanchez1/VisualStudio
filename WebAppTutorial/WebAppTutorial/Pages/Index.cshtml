@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 id="hello_world" class="display-4 green-text" onmouseover="newColor()" onmouseout="oldColor()">Hello World</h1>
+</div>
+
+
+<div id="container2">
+    <div id="animation"></div>
+</div>
+
+<p>
+    <button onclick="boxMove()">Click Me</button>
+</p>
+
+<div class="video">
+    <h2 class="gunship">GUNSHIP - TECH NOIR</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-nC5TBv3sfU?si=Ll7Lv2zAthZS9sbm"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+</div>
